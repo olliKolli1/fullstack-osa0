@@ -29,7 +29,7 @@ sequenceDiagram
 
 	browser->>server: Request URL: https://studies.cs.helsinki.fi/exampleapp/data.json merthod GET
 	activate server
-	server-->>browser the data
+	server-->>browser: the data
 	deactivate server
 	
 	Note right of browser: The browser executes the callback function that renders the notes
