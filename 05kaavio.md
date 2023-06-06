@@ -4,7 +4,7 @@ sequenceDiagram
 	participant server
 
 	browser->>server: request URL https://studies.cs.helsinki.fi/exapmleapp/spa method GET
-	arctivate server
+	activate server
 	server-->>browser: HTML document
 	deactivate server
 	
